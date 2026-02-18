@@ -1,0 +1,34 @@
+ div ,i{
+     display: flex;
+     justify-content: center;
+ }
+
+ h1, h2,p,li, d{
+     text-align: center;
+ }
+
+
+ button {
+     color: rgb(1, 1, 11);
+     background-color: rgb(55, 240, 157);
+     border-radius: 6px;
+     cursor: pointer;
+ }
+
+ button:hover {
+     background-color: gray;
+ }
+
+
+ body {
+     background-color: rgb(54, 245, 203);
+ }
+
+ button:hover{
+    opacity: .5;
+ }
+
+ button:active{
+    opacity: .80;
+    background-color: #ffffff;
+ }

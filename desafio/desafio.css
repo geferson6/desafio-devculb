@@ -1,0 +1,179 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0px 0px 50px;
+}
+
+.link-header {
+
+    font-weight: 600px;
+    font-size: 21px;
+    line-height: 60px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 43px;
+
+}
+
+.bu {
+    width: 135px;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #6FBF44;
+    border: none;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.img-log {
+    width: 595.18px;
+    height: 530px;
+    margin-left: 240px;
+    display: inline-block;
+    margin-top: 200px;
+}
+
+div {
+    display: inline-block;
+    margin-left: 90px;
+
+}
+
+
+h1 {
+    font-weight: 582px;
+    font-size: 64px;
+    line-height: 82px;
+    color: #161A49;
+    width: 700px;
+
+
+
+}
+
+p {
+    font-weight: 0.5px;
+    font-size: 18px;
+    line-height: 33px;
+    width: 450px;
+    margin-top: 30px;
+    margin-bottom: 65px;
+    color: #4B505A;
+}
+
+.a {
+    font-weight: 200px;
+    font-size: 20px;
+    line-height: 50px;
+    color: #6FBF44;
+    cursor: pointer;
+
+}
+
+.a:hover{
+    opacity: .5;
+}
+
+.a:active{
+    opacity: .80;
+}
+
+.bu:hover{
+    opacity: .10;
+}
+
+.bu:active{
+    opacity: .80;
+}
+
+.link-header:hover{
+    opacity: .3;
+}
+
+.link-header:active{
+    opacity: .80;
+}
+
+@media screen and (max-width: 900px) {
+
+    main{
+        width: 100%;
+    }
+
+    .link-header{
+        display: none;
+    }
+
+    div {
+        display: block;
+
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        width: 304px;
+        margin-top: 30px;
+        position: relative;
+        top: 100px;
+        text-align: center;
+        right: 47px;
+    }
+
+    .a {
+        font-size: 18px;
+        line-height: 100%;
+        cursor: pointer;
+        position: relative;
+        top: 60px;
+        left: 54px;
+    }
+
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        width: 240px;
+        text-align: center;
+        position: relative;
+        right: 14px;
+        top: 100px;
+    }
+
+    .img-log {
+        display: block;
+        position: absolute;
+        margin-left: 32px;
+        top: 34%;
+        width: 312px;
+        height: 288px;
+    }
+
+    .bu{
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 100%;
+        position: absolute;
+        top: 14px;
+        left: 320px;
+
+
+    }
+}
+
+
+@media screen and (max-width: 300px){
+    main{
+        width: 70%;
+    }
+}
